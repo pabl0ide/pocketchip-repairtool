@@ -1,6 +1,7 @@
 #!/bin/sh
 cd
 echo Instalando Aplicaciones...
+sudo apt-get update
 sudo apt-get install android-tools-backup sunxi-tools u-boot-tools
 echo Listo
 cd /CHIP/CHIP-tools
